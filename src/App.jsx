@@ -23,7 +23,7 @@ function App() {
       addedBy: { id: 1, name: "Oscar" },
     },
     {
-      name: "Party Planning Committee expenses",
+      name: "Party Planning Committee expense reports",
       completed: false,
       addedBy: { id: 2, name: "Angela" },
     },
