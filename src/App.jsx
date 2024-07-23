@@ -10,17 +10,22 @@ function App() {
     {
       name: "Complete TPS reports",
       completed: false,
-      addedBy: { id: 1, name: "John" },
+      addedBy: { id: 1, name: "Kevin" },
     },
     {
       name: "Reconcile Dunder Mifflin accounts",
       completed: false,
-      addedBy: { id: 2, name: "Jane" },
+      addedBy: { id: 2, name: "Angela" },
     },
     {
       name: "Review Peter's timesheet",
       completed: true,
-      addedBy: { id: 1, name: "John" },
+      addedBy: { id: 1, name: "Oscar" },
+    },
+    {
+      name: "Party Planning Committee expenses",
+      completed: false,
+      addedBy: { id: 2, name: "Angela" },
     },
   ]);
   const [filter, setFilter] = useState("all");
