@@ -15,11 +15,15 @@ function TaskItem({ task, index, setTasks }) {
 
   return (
     <li className="task-item">
-      <span className={task.completed ? "completed" : ""}>{task.name}</span>
-      <button onClick={toggleCompletion}>
-        {task.completed ? "Undo" : "Complete"}
-      </button>
-      <button onClick={deleteTask}>Delete</button>
+      <div className="task-item-header">
+        <span className={task.completed ? "completed" : ""}>{task.name}</span>
+      </div>
+      <div className="task-item-buttons">
+        <button onClick={toggleCompletion}>
+          {task.completed ? "Undo" : "Complete"}
+        </button>
+        <button onClick={deleteTask}>Delete</button>
+      </div>
     </li>
   );
 }
